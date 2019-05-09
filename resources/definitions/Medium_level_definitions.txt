@@ -1,0 +1,73 @@
+# Level 1
+
+START_LEVEL
+level_name:Sweet Level
+ball_velocities:45,450 90,450 230,450
+background:image(background_images/sweet.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/sweet_Level_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:30
+START_BLOCKS
+-prprprprpr
+-
+-
+-prprprprpr
+-
+-
+-prprprprpr
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+
+START_LEVEL
+level_name:3D
+ball_velocities:240,500 210,500 30,500 60,500
+background:image(background_images/3D.jpg)
+paddle_speed:650
+paddle_width:200
+block_definitions:definitions/3D_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:30
+START_BLOCKS
+-
+-
+-B-B-B-B-B-B-B-
+-
+L-L-L-L-L-L-L-L
+-
+-B-B-B-B-B-B-B-
+-
+L-L-L-L-L-L-L-L
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name:Beach
+ball_velocities:220,500 240,500 260,500 290,500 310,500
+background:image(background_images/beach.jpg)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/beach_Level_definitions.txt
+blocks_start_x:150
+blocks_start_y:150
+row_height:25
+num_blocks:50
+START_BLOCKS
+yyyyyyyyyy
+yiiiiiiiiy
+yiiiiiiiiy
+yiiiiiiiiy
+yyyyyyyyyy
+END_BLOCKS
+END_LEVEL

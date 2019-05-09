@@ -1,0 +1,10 @@
+# default values for blocks
+default height:25 width:50 stroke:color(brown)
+
+# block definitions
+bdef symbol:y hit_points:1 fill-1:image(block_images\watermeloon.jpg)
+bdef symbol:i hit_points:1 fill-1:image(block_images\ice_cream.jpg)
+
+# spacers definitions
+sdef symbol:- width:100
+sdef symbol:* width:100
